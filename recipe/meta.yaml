@@ -1,5 +1,5 @@
 {% set name = "pinotdb" %}
-{% set version = "0.4.6" %}
+{% set version = "0.4.8" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pinotdb-{{ version }}.tar.gz
-  sha256: 700f43723e6e1038ef04881d62e86d17517556f512c14ebfb179d2832b2c1697
+  sha256: 33d4c6af28bb2ce5bbd9acaf1bcfb187c304f82d6c62e24013ae6e8dbc0dd6a3
 
 build:
   number: 0
@@ -21,7 +21,7 @@ requirements:
     - python >=3.6
   run:
     - python >=3.6
-    # missing from upstreams setup.py but test import fails without it
+    - ciso8601
     - httpx
     - requests
     - six
