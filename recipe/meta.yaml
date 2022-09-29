@@ -21,7 +21,7 @@ requirements:
     - python >=3.6
   run:
     - python >=3.6
-    # missing from upstreams setup.py but test import fails without it
+    - ciso8601
     - httpx
     - requests
     - six
