@@ -1,7 +1,6 @@
 {% set name = "pinotdb" %}
 {% set version = "0.4.9" %}
 
-
 package:
   name: {{ name|lower }}
   version: {{ version }}
@@ -17,14 +16,12 @@ build:
 
 requirements:
   host:
+    - python >=3.7,<4.0
     - pip
-    - python >=3.6
   run:
-    - python >=3.6
-    - ciso8601
-    - httpx
-    - requests
-    - six
+    - python >=3.7,<4.0
+    - ciso8601 >=2.2.0,<3.0.0
+    - httpx >=0.23.0,<0.24.0
 
 test:
   imports:
