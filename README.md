@@ -1,11 +1,11 @@
-About pinotdb
-=============
+About pinotdb-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pinotdb-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/python-pinot-dbapi/pinot-dbapi
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pinotdb-feedstock/blob/main/LICENSE.txt)
 
 Summary: Python DB-API and SQLAlchemy dialect for Pinot.
 
