@@ -1,5 +1,5 @@
 {% set name = "pinotdb" %}
-{% set version = "5.1.5" %}
+{% set version = "5.1.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pinotdb-{{ version }}.tar.gz
-  sha256: 8bd39c09b7b2363af0ffd51b0deb0bd9ad05ef6f74af3d1624368382a317b198
+  sha256: bda4cea15de3afdf0a11d0ac9daf85b6d59f3ffa6edaf5b9eadb3cfd8a989fd4
 
 build:
   number: 0
