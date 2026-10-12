@@ -1,6 +1,6 @@
 context:
   name: pinotdb
-  version: "9.2.1"
+  version: "9.2.2"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/pinotdb-${{ version }}.tar.gz
-  sha256: 14adf5ccaed68d2b710410b2ebd9ade198ad611f75d8b89deb20363d32b9d6d7
+  sha256: 487637928c59e0546a8f36c31a1cdfe3dff965d555eec5da4f1e3a3c9bc9aead
 
 build:
   number: 0
